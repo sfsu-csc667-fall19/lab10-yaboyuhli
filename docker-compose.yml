@@ -1,7 +1,7 @@
 version: "3"
 services:
   web:
-    image: hello-swarm
+    image: hello-docker
     deploy:
       replicas: 4
       restart_policy:
